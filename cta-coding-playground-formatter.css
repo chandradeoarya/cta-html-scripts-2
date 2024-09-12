@@ -18,8 +18,15 @@ p, ul, ol, pre, li {
     line-height: 1.6 !important;
 }
 
+/* Ensure bullet points are shown for ul and ol */
+ul, ol {
+    margin-left: 20px !important;
+    list-style-type: disc !important;
+}
+
 ul li, ol li {
     margin-bottom: 5px !important;
+    list-style-position: outside !important;
 }
 
 pre code {
