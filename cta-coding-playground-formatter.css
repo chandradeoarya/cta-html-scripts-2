@@ -1,0 +1,43 @@
+/* CSS for overriding styles with high specificity */
+h3#problem-description, 
+h3#problem-constraints, 
+h3#input-format, 
+h3#output-format, 
+h3#example-input, 
+h3#example-output {
+    font-family: Arial, sans-serif !important;
+    color: #2b2b2b !important;
+    font-size: 1.5rem !important;
+    margin-bottom: 10px !important;
+}
+
+p, ul, ol, pre, li {
+    font-family: Arial, sans-serif !important;
+    color: #444 !important;
+    font-size: 1rem !important;
+    line-height: 1.6 !important;
+}
+
+ul li, ol li {
+    margin-bottom: 5px !important;
+}
+
+pre code {
+    background-color: #f4f4f4 !important;
+    padding: 10px !important;
+    display: block !important;
+    color: #333 !important;
+}
+
+pre code .hljs-number, 
+pre code .hljs-symbol, 
+pre code .hljs-keyword, 
+pre code .hljs-literal, 
+pre code .hljs-selector-class {
+    color: #d6336c !important;
+    font-weight: bold !important;
+}
+
+body {
+    margin: 20px !important;
+}
