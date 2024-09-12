@@ -12,16 +12,21 @@ h3#example-output {
 }
 
 p, ul, ol, pre, li {
-    font-family: Arial, sans-serif !important;
+    font-family: 'Courier New', monospace !important;
     color: #444 !important;
     font-size: 1rem !important;
     line-height: 1.6 !important;
 }
 
-/* Ensure bullet points are shown for ul and ol */
-ul, ol {
+/* Ensure bullet points for ul and numbered list for ol */
+ul {
     margin-left: 20px !important;
-    list-style-type: disc !important;
+    list-style-type: disc !important; /* Unordered list with bullet points */
+}
+
+ol {
+    margin-left: 20px !important;
+    list-style-type: decimal !important; /* Ordered list with numbers */
 }
 
 ul li, ol li {
