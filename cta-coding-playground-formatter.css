@@ -12,7 +12,7 @@ h3#example-output {
 }
 
 p, ul, ol, pre, li {
-    font-family: 'Courier New', monospace !important;
+    font-family: Arial, sans-serif !important;
     color: #444 !important;
     font-size: 1rem !important;
     line-height: 1.6 !important;
